@@ -1,0 +1,45 @@
+# 敏感信息与本地配置
+.env
+.env.local
+*.pem
+*.key
+
+# 方案与过程文档，不入库
+docs/
+
+# 用户评测素材
+evals/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# 运行时数据
+.data/
+*.log
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# 本地部署辅助脚本与教程资料（不属于项目代码）
+deploy_remote.py
+download_plink.py
+build_deployment_manual.py
+retry_plink.ps1
+plink.exe
+steps/
+*.tar.gz
+*.docx
+.playwright-mcp/
+.git_bak/
